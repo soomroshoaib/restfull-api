@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 mongoose.set('strictQuery', true);
-let dbURI = 'mongodb://12345:Soomro123 @ac-6nitjju-shard-00-00.zgchtqh.mongodb.net:27017,ac-6nitjju-shard-00-01.zgchtqh.mongodb.net:27017,ac-6nitjju-shard-00-02.zgchtqh.mongodb.net:27017/Ecommerce?ssl=true&replicaSet=atlas-u8i189-shard-0&authSource=admin&retryWrites=true&w=majority';
+let dbURI = 'mongodb://12345:Soomro123@ac-6nitjju-shard-00-00.zgchtqh.mongodb.net:27017,ac-6nitjju-shard-00-01.zgchtqh.mongodb.net:27017,ac-6nitjju-shard-00-02.zgchtqh.mongodb.net:27017/Ecommerce?ssl=true&replicaSet=atlas-u8i189-shard-0&authSource=admin&retryWrites=true&w=majority';
 mongoose.connect(dbURI);
 
 ////////////////mongodb connected disconnected events///////////////////////////////////////////////
